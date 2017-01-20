@@ -1,0 +1,141 @@
+/*font-family: 'Oxygen', sans-serif;*/
+body{
+  background-image: url('../images/fumée.jpeg');
+  /*background-repeat: no-repeat;*/
+  background-color: black;
+  background-size: contain;
+
+
+}
+
+#contain{
+  height: 2000px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 1px solid #d72516;
+}
+
+#title{
+  background-color: #262626;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+#header{
+  background-color: white;
+  height: 450px;
+  background-image: url('../images/tricky_back.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+h2{
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+
+}
+.fa-music{
+  color : #d72516;
+}
+#infos{
+  padding-bottom: 10%;
+}
+#news{
+  height: 500px;
+  border: 1px solid #d72516;
+  margin-top: 10%;
+  background-color: #d72516;
+  position: absolute;
+}
+
+#album{
+  height: 160px;
+  width: 160px;
+  background-image: url('../images/skilled.jpeg');
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#news p{
+  text-align: center;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
+}
+#date{
+  height: 200px;
+  border: 1px solid #d72516;
+  margin-top: 10%;
+  background-color: #d72516;
+}
+#date p{
+  color: lightgrey;
+  text-align: center;
+}
+#live{
+  height: 250px;
+  border: 1px solid #d72516;
+  margin-top: 10%;
+  background-image: url('../images/tricky-live2.jpg');
+  background-size : cover;
+  background-repeat: no-repeat;
+}
+
+#form{
+  padding-top: 7%;
+  padding-bottom: 10%;
+
+}
+#formLeft{
+  height: 500px;
+
+}
+#formRight{
+  height: 500px;
+  background-color: #d72516;
+
+}
+#logo{
+  height: 500px;
+  background-size: cover;
+  background-image: url('../images/tricky-logo.jpg');
+}
+.form-group{
+  text-align: center;
+}
+label{
+  margin-top: 5%;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+textarea{
+  resize: none;
+}
+#submit{
+  display: block;
+  margin: auto;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+
+}
+input{
+  border-radius: 0 !important;
+}
+#error{
+  font-family: 'Oxygen', sans-serif;
+
+}
+#answer{
+  display: none;
+}
+.modal-content{
+  background-color: rgba(255, 255, 255, .7);
+  color: black;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>standBy_January</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-md-offset-1 col-md-10" id="contain">
+
+            <div class="row">
+                <div class="col-md-12" id="header"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12" id="title">
+                    <h1><i class="fa fa-music" aria-hidden="true"></i> Tricky<small> New album 1st January</small></h1>
+                </div>
+
+                <div class="col-md-12" id="infos">
+                    <div class="col-md-6">
+
+                        <div class="col-md-offset-1 col-md-10" id="news">
+                            <h2>News</h2>
+                            <div id="album"></div>
+                            <div>
+                                <p>Skilled Mechanics</p>
+                                <p>New album coming soon !</p>
+                                <p>Keep waiting...</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12" id="date">
+                            <h2>Live</h2>
+                            <p id="question">15.03.17 - LONDON - 02 Arena</p>
+                            <p id="answer">Buy tickets</p>
+                            <p>23.05.17 - PARIS - Zenith</p>
+                            <p>07.08.17 - NEW-YORK - The Brooklyn Bowl</p>
+
+                        </div>
+                        <div class="col-md-12" id="live"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-12" id="title">
+                    <h1><i class="fa fa-music" aria-hidden="true"></i> Parenthesis<small> So close up your knees</small></h1>
+                </div>
+
+                <div class="col-md-12" id="form">
+                    <div class="col-md-6" id="formLeft">
+                        <div id="logo"></div>
+                    </div>
+                    <div class="col-md-6" id="formRight">
+                        <h2>Contact</h2>
+                        <form>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" id="name" autocomplete="off" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="email" autocomplete="off" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea rows="4" cols="50" class="form-control" id="message" autocomplete="off" placeholder="Message"></textarea>
+                            </div>
+                            <input id="submit" data-toggle="modal" data-target="#myModal" type="button" onclick="send()" class="btn btn-default" value="Submit">
+                        </form>
+                        <!-- <div id="error"></div> -->
+                    </div>
+                </div>
+
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Contact</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p id="error"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!--Contain-->
+        </div>
+        <!--Container fluid-->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/6b5cb53962.js"></script>
+<script src="./js/main.js"></script>
+
+
+</html>
